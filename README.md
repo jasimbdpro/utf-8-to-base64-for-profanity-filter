@@ -2,4 +2,4 @@
 
 ## As a Bangladeshi, my native language is Bangla. And its character encoding is in unicode.
 
-### Converting Unicode to ASCII and ASCII to Unicode is not straightforward. As base64 saves string in ASCII format. So at first, I need to convert my unicode text to ASCII, then make it base64.
+### Converting Unicode to ASCII and ASCII to Unicode is not straightforward. As base64 saves string in ASCII format. So at first, I need to convert my unicode text to ASCII, then make it base64. I wanted to used profanity filter in my project. But most of the npm package don't have pre-built dictionary of my language's profane words. So, I wanted to use to add my custom list in my project. But adding dirty words directly in puplic feels me embarrased. So, I wanted to convert the dirty word as base64, then make my project access the words dynamically from the base64 string.
